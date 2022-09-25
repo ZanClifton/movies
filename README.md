@@ -1,6 +1,6 @@
 # Movies
 
-This project is a refactor of the [Multi-User Movie Watch List](https://github.com/ZanClifton/basic-python-projects/tree/main/26-multi-user-movie-watch-list) created in the Mini Python Projects repo. Very little is different, except that instead of writing to a local database, it now writes to a database at [ElephantSQL](https://www.elephantsql.com/).
+This project is a refactor of the [Multi-User Movie Watch List](https://github.com/ZanClifton/basic-python-projects/tree/main/26-multi-user-movie-watch-list) created in the Mini Python Projects repo. Very little is different, except that instead of writing to a local database, it now writes to PostgreSQL a database at [ElephantSQL](https://www.elephantsql.com/).
 
 #
 
@@ -31,7 +31,7 @@ To be able to run this project locally you'll need to create a file in the main 
 
 You can rename the `.env.example` file to `.env` if you like.
 
-Your .env file should already contain the following:
+Your `.env` file should already contain the following:
 
 ```
 DATABASE_URL=
